@@ -22,9 +22,9 @@ password = data.get("password")
 print("▼ログインID：", login_id)
 print("▼パスワード：", password)
 
-    print("査定ナンバー:", property_id)
-    print("ご依頼日:", contact_date)
-    print("詳細URL:", detail_url)
+print("査定ナンバー:", property_id)
+print("ご依頼日:", contact_date)
+print("詳細URL:", detail_url)
 
     # ここから先にスクレイピング＆スプレッドシート登録処理を追加していく
     return jsonify({"status": "received", "propertyId": property_id})
