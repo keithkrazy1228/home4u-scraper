@@ -20,7 +20,7 @@ login_id = data.get("loginId")
 password = data.get("password")
 
 print("▼ログインID：", login_id)
-print("▼パスワード：", password))
+print("▼パスワード：", password)
 
     print("査定ナンバー:", property_id)
     print("ご依頼日:", contact_date)
